@@ -1,0 +1,90 @@
+body{
+  color: maroon;
+  background-color: wheat;
+  font-size: 18px;
+  font-family: Verdana;
+}
+header{
+  background-color: burlywood;
+  color: maroon;
+  width: 99%;
+  padding: 8px;
+}
+footer{
+  background-color: burlywood;
+  color: maroon;
+  width: 99%;
+  height: 40px;
+  padding: 8px;
+}
+ul a{
+  color: white;
+  text-decoration: none;
+}
+li{
+  display: inline-block;
+  background-color: brown;
+  border: 2px solid brown;
+  color: white;
+  text-align: center;
+  height: 30px;
+  width: 150px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+li:hover{
+  background-color: sandybrown;
+  border: 2px solid brown;
+  border-radius: 10px;
+}
+.voet{
+  font-size: 12px;
+}
+.beschrijving{
+  background-color: cornsilk;
+  text-align: justify;
+  padding: 40px 40px 70px 40px;
+  margin: 40px 100px;
+}
+img{
+  float: left;
+  padding-right: 20px;
+}
+.tableau{
+  margin: 40px 100px;
+}
+table{
+  border-collapse: collapse;
+  background-color: cornsilk;
+}
+td, th{
+  vertical-align: text-top;
+  border: 0.5px solid maroon;
+  padding: 12px;
+}
+th{
+  font-size: 24px;
+}
+.formulaire{
+  background-color: cornsilk;
+  padding: 10px 40px;
+  margin: 40px 100px;
+}
+input[type="text"], input[type="email"], textarea, button{
+  display: block;
+  font-family: Verdana;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin: 15px 0px;
+}
+textarea{
+  height: 200px;
+  background-color: wheat;
+}
+button:active{
+  background-color: maroon;
+  color: white;
+  border-radius: 8px;
+}
